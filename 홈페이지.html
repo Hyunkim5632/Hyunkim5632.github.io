@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{ width: 200px;
+            height: 200px;
+        float: left;}
+
+        h3{color: rgb(0, 0, 0);
+            text-align: center;
+        }   
+        div{
+            width: 500px;
+            background-color: rgb(133, 161, 217);
+        }
+
+
+        #test1{
+            background-color: rgb(133, 161, 217);
+        }
+      .d2{
+        float: right;
+      }
+      .containter{
+        display: flex;
+      }
+      .flex_box{
+        margin: 10px;
+        padding: 10px;
+        border: 1px;
+    }
+    .box{
+        display: flex;
+    }
+
+     @keyframes textColorAnimation{
+0% { color : rgb(255, 140, 0); }
+50% { color : rgb(11, 0, 128); }
+100% { color : rgb(255, 0, 200); }
+}
+h1 {
+animation-name : textColorAnimation ;
+animation-duration : 5s;
+animation-iteration-count : infinite;
+}
+    </style>
+    
+
+</head>
+
+<h1>충남대학교 맛집 소개</h1>
+<body>
+    <script>
+function make(num){
+    if (num = 1) {
+        document.write("<img src='image/food" + num + ".png'>") ;
+        ;
+    
+    } 
+}
+const food = parseInt(prompt("돈까스 좋아하세요? 1을 눌러주세요."));
+const result = make(food);
+if (num = 1)
+document.write("<div><hr>돈까스 찌개 한식뷔페가 11000원에 가능한 <p> 가성비 식당, 하늘돈까스백반</div>");
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>
